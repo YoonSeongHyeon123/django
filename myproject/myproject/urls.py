@@ -21,4 +21,5 @@ import myapp.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',myapp.views.layout, name='layout'),
+    path('layout2/',myapp.views.layout2, name='layout2'),
 ]
